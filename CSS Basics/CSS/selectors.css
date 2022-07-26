@@ -1,0 +1,21 @@
+body{
+    margin: 10px;
+}
+h1{
+    color: dodgerblue !important;
+}
+.highlight{
+    color:deeppink;
+}
+
+#products{
+    color: green;
+}
+
+.featured #products{
+    color: dodgerblue;
+}
+
+html body #featured h2#products.highlight{
+    <--it will be really messy and hard to maintain-->
+}
