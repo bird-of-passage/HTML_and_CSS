@@ -1,0 +1,29 @@
+body{
+    margin: 10px;
+}
+
+.tweet{
+    border: 3px solid lightgray;
+    overflow: hidden;
+}
+
+
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.avater{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+
+.clear{
+    clear: both;
+}
