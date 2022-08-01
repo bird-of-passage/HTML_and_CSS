@@ -1,6 +1,28 @@
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/opensans-condbold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-condbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/fonts/opensans-condlight-webfont.woff2') format('woff2'),
+         url('fonts/fonts/opensans-condlight-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
 body{
     margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'opensans',Arial, Helvetica, sans-serif;
 
 }
 
