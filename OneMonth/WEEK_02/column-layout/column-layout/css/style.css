@@ -21,6 +21,17 @@ Developed @ One Month in NYC
 .clear {
 	clear: both;
 }
+.alignleft{
+     float:left;
+     margin: 15px;
+}
+.alignright{
+     float: right;
+}
+
+img{
+     float: left;
+}
 
 
 
@@ -28,4 +39,35 @@ Developed @ One Month in NYC
 =02 LAYOUT 
 -----------------------------------------------------------------------------*/
 
+#container{
+     width: 1000px;
+     margin: 0 auto;
+}
+
+#header{
+     background: silver;
+     padding: 50px;
+}
+
+#main{
+     background: skyblue;
+     padding: 50px;
+     width: 700px;
+     float: left;
+
+}
+
+#sidebar{
+     background: pink;
+     width: 300px;
+     float: left;
+     padding: 50px;
+}
+
+
+#footer{
+     background: peachpuff;
+     padding: 50px;
+
+}
 
