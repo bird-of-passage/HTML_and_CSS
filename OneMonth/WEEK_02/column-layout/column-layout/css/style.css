@@ -16,7 +16,7 @@ Developed @ One Month in NYC
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
-
+  
 /* Clear Class */
 .clear {
 	clear: both;
@@ -60,6 +60,7 @@ h1{
      padding: 50px;
      width: 700px;
      float: left;
+     border: 1px red solid;
 
 }
 
