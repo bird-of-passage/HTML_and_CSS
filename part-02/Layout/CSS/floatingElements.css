@@ -1,0 +1,21 @@
+.tweet {
+  border: 3px solid lightgray;
+  overflow: auto;
+}
+
+.ad::after {
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.avater {
+  width: 5rem;
+  height: 5rem;
+  background-color: dodgerblue;
+  float: left;
+  margin-right: 0.5rem;
+}
